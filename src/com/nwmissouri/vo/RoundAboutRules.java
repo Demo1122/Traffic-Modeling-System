@@ -8,6 +8,9 @@ public class RoundAboutRules extends Rules{
 	public void setSpeed(float speed) {
 		this.speed = speed;
 	}
+	
+	private int car = 100;
+	
 	public boolean isuTurn() {
 		return uTurn;
 	}
